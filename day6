@@ -32,3 +32,20 @@ Reasons to use Linux:-
 6. learning curve.
 
 It is much faster than a GUI based OS, and it does have a very large amount of commands to perform different operations like many more, i am not gonna mention anyone here, 
+
+
+GIT Tutorials :-
+
+Commands :- git add, 
+
+
+1. git add :- This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit. 
+
+2. git branch :- This command is mainly used to create, update or to delete teh branches. There are many different options to perform certain tasks like, list all branches and many more.
+
+3. git cehckout :- This command is used to switch between different branches or to restore working tree files. By defining option as (-b) it will create a brnach if a brnach not exist.
+
+4. by using -m or -M during git branch, it will rename the current branch with the new name mentioned in the command at the last. (ex :- git branch -M Main) :- This line will convert the current master branch's name into Main branch.
+
+5. git remote add origin :- This command will link your local repository to a remote repository. 
+Index :- index refers to a temporary staging area where you collect changes made to files in your working directory before commiting them to repository.
