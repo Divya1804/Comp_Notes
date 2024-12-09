@@ -1,0 +1,34 @@
+Today's working
+
+1. Git basic commnads. (With full description)
+2. ps command
+3. find command
+
+
+
+PS Command--------->
+--> This command is used to check status of the active processes on a system. 
+
+
+FIND Command ---------->
+--> Find command in linux is used to search for files in a directory.
+Find command is a powerful utility in linux systems used to search for files and direcotories within a directory hierarchy based on various criteria...
+
+	Using find command we can perform various operations likle finding files and directories from the directory structure. This command will help us in various ways like if want to find files that contains the given content, finding content that matches the pattern, finding files that were modified in last few days or weeks or months or even years., We can also combine the grep command with the given find command to perform operations like finding files that containing the pattern etc...
+	we can also search by the type of file, like what we want, file or directory. we can also find files by their name, by their permissions (-perm) , we can also find the empty files or directories. 
+	If there is a match, then it will return the file or direcotry name but if they don't match with anyone, then it wont return anything. 
+	
+	
+	
+Why linux ?
+--> It provides a text-based interface to directly interact with the OS, allowing users to perform various tasks like file management, software installation, system configuration, and automation with powerful commands. It is much faster and more efficient than using a GUI, especially for advance users and system administrators.
+
+Reasons to use Linux:-
+1. Advance functionality.
+2. Speed and efficiency.
+3. System administration
+4. Scripting and automation
+5. development and coding
+6. learning curve.
+
+It is much faster than a GUI based OS, and it does have a very large amount of commands to perform different operations like many more, i am not gonna mention anyone here, 

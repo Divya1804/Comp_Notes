@@ -1,0 +1,25 @@
+-----------------SSH (Secure Shell)-----------------
+
+SSH is useful for data tansfer because it allows you to securly transfer files between local computer and a remote server over an encrypted connection.
+
+SSH Key is a credential that allows access to the SSH Network protocol. SSH is a cryptographic network protocol that allows for secure remote communication between machines over an unsecured network.
+
+What is cryptographic network protocol ?
+--> Cryptographic network protocol is a set of rules that uses cryptographic algorithms to securely transmit data across a network, ensuring confidentiality, integrity, and authentication of the information being exchanged.
+
+SSH Uses encryption algorithms so that the data that is being transfered via SSH will be converted into a secret code which is not readable or understandable.
+
+SSH uses a AES (Advanced Encryption Standard) as its encryption algorithm. SSH uses symmetric encryption with a shared secret key to encrypt data.
+
+Secure Shell (SSH) is a network protocol that allows secure communication and data sharing between two computers over an unsecured network. 
+
+SSH uses cryptograph to authenticate and encrypt connection between devices.
+
+For authentication, It will use Hashing technique. It uses a hash function to generate a hash code from the received data. this hash value is verified at the sender's and receiver's both ends. If it matches, data is authenticated.
+
+SSH uses asymmetric encryption in a few different places. During the initial key exchange process used to setup the symmetrical encryption, asymmetric encryption is used.
+
+OpenSSH-client :- it is a software on our local system that allows us to connect securely to a remote server using SSH Protocols.
+OpenSSH-server :- it is a software on server system that listens for incoming connections from the client, enabling remote access and file transfer with encryption.
+
+ssh-keygen will generate a pair of keys (public key and private key) private key will only be stored in our system while public key will be transfered to the target computer so that when we request for access that computer it will try to cehck both public and private key, it is matches, it will allow us to access that computer remotely from our computer.

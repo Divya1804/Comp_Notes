@@ -1,0 +1,148 @@
+--------------------Some Python terminologies-----------------------
+1.) why we should use python?
+-> it is used in various domain like artficial intelligence,data science,machine learning and it is very usfefull to learn beginner programmer.it also has powerfull liabraries by using that library our task will be very easy to be performed. 
+
+
+2.) How does  it work internally ?
+--> So, first as we start writing code in some code editor, it will be stored in .py file, now after creating a python file, it will be transfered to the interpreter and interpreter will convert it into a byte code (.pyc or.pyo) rather than converting it into a machine code, and after converting it into byte code, it will be interpreted on virtual machine called (Python Virtual Machine).
+--> It will convert the python file into bytecode rather than machine code, because byte code are easier to be executed.
+--> An interpreter will not convert byte code into machine code, it will directy run byte code.
+--> PVM transfers byte code into machine code.
+
+
+3.) what are it's feature ?
+--> 1. As python has a simple syntax, it is easy to learn for the beginners.
+2. Python is a dynamically typed language, which means we don't need to define the type of variable explicitly.
+3. Python supports OOPs concept that will make code easier to understand and maintain.
+4. Python does have its own extensive standard library that will help developers to do their tasks easily.
+5. python is a platform independent language, means a python file written in any machine will run on any other machine having python interpreter installed.
+6. Python abstracts complex tasks, allowing developers to mainly focus on problem-solving.
+
+
+4.) What are it's advantages ?
+--> 1. Python can be faster than other languages like java.
+2. python has its own large library support.
+3. python can be easily integrated into other programming languages.
+4. python has a large and active community of developers.
+5. python can handle large amount of data and support distributed computing.
+6. Python is easy for the beginners as its syntax is like an English language making it more user friendly for the first time learner so that they can focus on concepts rather than focusing on syntax errors.
+7. Python is also a better choice for game development because of its frameworks like pygame.
+
+
+5.) Different scenarios in which it will work perfectly ?
+--> Python is considered as a better choice for some tasks like machine learning, data analysis, Artificial intelligence, and for task automation because of its large and extensive library support.
+
+
+6.) What is python ?
+--> Python is a general purpose programming language that will be helpful in various tasks like web development, Machine learning, Artificial intelligence, data analysis and many more tasks because of its extensive library supprt. Python is also useful for the beginners to strat their coding journey as its syntax are very user friendly. 
+
+
+7.) In which language a python language written ?
+--> The python interpreter (CPython) is written in a C language. and some built-in modules of the python standard library is also written into a C language.
+--> The debugger of the python language is written in python itself.
+
+
+8.) which enivironment is better to use for python mac,linux or windows?
+--> As most of the severs running on the Linux, Linux will be better choice for Python developers to deploy applicaitons created by using a Python.
+--> And there is a large community for python developers on Linux which is readily available for solutions to common problems.
+--> Also linux has a a powerful CLI for the developers which will help them to perform scripting and efficient automation.
+--> As Linux is an open-source library, it provides flexibility to access and modify source code according to our use. which will be helpful for better customization for development.
+
+
+------------Linux terminals explorations-----------------
+1.) what is sudo
+--> Sudo grants users temporary access to system resources, allowing us to run such commands that we normally can't. For example to install or update some pakages, disabel network interfaces, and restart the system.
+--> It will temporarily grant administrative rights to the users, without sharing a root account credentials. It is more secure as it give specific permissions to users, allowing them access to resources they need, nothing else.
+
+
+2.) List all file in current directory.
+--> For this task, we can use (ls) command. It will be used to list all the files available in the current directory.
+1. ls -> To list all files in current directory.
+2. ls --all -> To list all files including hiddent files.
+3. ls FolderName -> To list all files that are available in FolderName.
+4. ls / -> To list files in the root directory.
+5. ls -l -> This cmd will display lots of informations rather than just showing the file names or direcroty names.
+6. ls -F -> It will list all files and directories available in current directory. It will place ('/') after directory name and it will place ('*') after exectable file.
+7. ls -h -> It will display file sizes in human readable formats when we use it with ls -l.
+8. ls -d -l -> It will display detailed information about current directory.
+
+
+3.) change current directory.
+--> To change a current directory, we can use (cd) command in linux terminal that will help us to change directory and to move from one directory to another directory.
+1. cd DirectoryName -> It will change current directory to DirectoryName.
+2. cd .. -> It will help us to come back from the current directory, Means if there is a structure like a/b/c and if i am in 'c' directory then after using this command i will come to 'b' directory. (Move to the parent Directory from child directory.)
+3. cd DirectroyPath -> This command will help us to directly move to the given path(Destination)
+rather than going one by one.
+4. cd / -> This command will help us to move from local directory to root directory.
+5. pwd -> This command will help us to get the path of the current directory.
+6. cd ~ -> This command will help us to come to the Home directory from anywhere.
+7. If there is a space between a directory name, We can use 2 different ways to move to that directory.  	1 :- (cd 'dir name')	2 :- (cd dir\ name)
+8. cd - -> This command will help us to move from current directory and previous directory Quickly.
+
+
+4.) What user i am right now.
+--> For getting what user is working now, we can use (whoami) command. There are some different commands like (id) & (who) which are also use to get such information. There is one more command called (uname) Which is used to get information about the System's kernel.
+--> If we use (whoami) with (sudo) It will return root user. ['sudo whoami']
+
+
+5.) check my IP Address.
+--> To get our public IP Address, we can use ('curl ifconfig.me'). It will return our public IP Address. (Not able to understand which one is IP For what ??['ip addr'] -> After running this cmd, there are 2 different IPs but which one is my private IP ??)
+
+--> To get network IP Address, we can use ('ifconfig') and ('ip addr show') and ('ip address')
+
+
+6.) check system configuration and current usage(resource management).  (I find it little bit difficult to understsand.)
+--> 1. df -H :- This command will be used to to check space used, available, and percentage used for each disk.
+2. lscpu :- It will provide information about your CPU architecture, including the number of CPUs, Threads, cores, and sockets.
+3. htop :- It is used to show processes, including CPU line that shows the percentage of CPU being used.
+4. top :- It will provide real time information about system performance, including CPU and memory utilization. It provides a dynamic realtime view of the running system. 
+
+
+7.) List all current processes in system.
+--> To list all current processes in linux, we can use ['ps aux'] command. This will display a list of all processes, including their PID, user, CPU usage and memory usage.
+
+
+8.) Explore Ubutu Firewall.
+--> 
+
+9.) delete a file.
+--> To delete a file from a directory, we can use (rm) command. It will simply remove the file that we mentioned after the (rm). ('rm file1')
+
+10.) delete dirtectory.
+--> To delete a directory, we can use 2 different commands (rmdir) and (rm). (rmdir) will be used to remove an empty directory, while (rm) will be used to remove the directory along with all the content available in that directory.
+
+11.) copy file and copy directory.
+--> To copy 1 file to another file, we can use (cat) command like ('cat file1 >> file2') this commanad will attach file2 content into file1 content. But if file1 is already empty, it will directly copy content of file2 into file1.
+--> To copy content from 1 file to another file, we can also use (cp) command. This command will automatically override the whole content in 2nd file by the content of 2st file. ('cp file1 file2').
+
+
+12.) create a new file.
+--> To create a new file, we can use ('touch filename.extension') command. We can also use the (cat) command to create a file. 
+
+
+13.) create new directory.
+--> ('mkdir') command will be used to create a new directory.
+
+
+14.) echo command.
+--> echo command is mainly used to print something on the terminal. It is a built-in command that allows user to display text, variables, and special characters to the terminal screen. It is also being used to create a file by typing this command ('echo > file1').
+
+15.) environment variables.
+--> environment variables are dynamic variables used by a shell and its child process. To create an environment variables we can follow this syntax : ['<NAME>=<VALUE>']. So that this variables we can use later on.
+
+16.) difference between shell and bash.
+--> A shell is a CLI program that allows user to interact with OS by using different commands.
+--> Bash is also a CLI Program that allows user to directly interact with the OS using different commands.
+--> Shell refers to the general concept of CLI used to interact with OS, while Bash is a specific type of shell that is widely used as default. It offers more advanced features like command line editing, powerful scripting capabilities, and better help functionality compared to shell.
+
+
+
+
+
+
+Types of IP Address...
+1. Public and Private
+-> public ip addresses are used to identify a device on the internet. While Private IP Addresses are used to within a network.
+
+2. Static IP Addresses are permanent, while dynamic IP Addresses are not permanent.
+3. Broadcast IP Addresses are mainly used to share data to all devices on the network,

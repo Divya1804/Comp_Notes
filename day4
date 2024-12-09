@@ -1,0 +1,106 @@
+-----------------------------Day 4-----------------------------
+
+Bash Scripting (variables, if-else, loops, input/output)
+explore chmod
+explore vim editor
+
+
+BASH SCRIPTING-------
+--> A bash shell script is a plain text file containing a set of various commands that we usually type in the command line. used to automate repetitive tasks on Linux filesystem.
+
+--> Comments :- 	1. << COMMENTS .... COMMENTS		2. : ' .... '
+NOTE :- Space will be considered as a separation of the items.
+--> Wait :- This will be helpful for adding some delay for the task to be completed.
+
+--> Arithmetic operations :- 	(DOUBT :- For float points, how we can show a floating value after decimal value?)
+
+ANS. --> let command will only work for integer values, it is a most useful command to perform arithmetic operations on integer values.
+--> (let) only works with integers, not floating-point numbers.
+
+
+--> Bash IF Statements...
+---> -gt --> Grater than	-ge --> Greater than Equal 	-lt --> Less than 	-le --> Less than equal. 	! --> To check whether it is false or true. 	-n --> To check the length of string is greater than zero. 	-z --> To check the length of string is zero. 	== --> To check if 2 strings are equal or not. 	!= --> To check if 2 strings are not equal !!.
+---> Syntax :-
+	1. Syntax For the simple if else conditions.
+	if [[ EXPRESSION ]]
+	then 
+	echo "..."
+	else
+	echo "..."
+	fi
+	
+	2. Syntax for only if statements.
+	if [[ EXPRESSION ]]
+	then
+	echo "..."
+	fi
+	
+	3. Syntax for nested if statements.
+	if [[ EXPRESSION ]]
+	then
+	if [[ EXPRESSION 2 ]]
+	then
+	echo "..."
+	fi
+	fi
+	
+	4. Syntax for if_else-if(elif)_else statements.
+	if [[ CONDITION ]]
+	then
+	echo "..."
+	elif [[CONDITION ]] 
+	then
+	echo "..."
+	else
+	echo "..."
+	fi
+	
+	
+--> BASH CASE
+	it is used to check the case, like there are many cases and it will give answer according to the case that matches.
+	
+	1. Syntax for case...
+	case [variable or condition] in 
+		pattern1)
+			echo "..."
+			echo
+			;;
+		pattern2)
+			echo "..."
+			echo
+			;;
+		*)
+			echo "..."
+			echo
+			;;
+	esac
+	
+	
+--> BASH FOR LOOP
+	This is just like a normal for loop in other languages like java, C++ and so on... Its work is to do the same work repetedly for some defined time.
+	
+	1. syntax for FOR LOOP...
+	for variable in list
+	do
+	commands
+	done
+	
+	2. Syntax for FOR LOOP Like older one...
+	for (( exp1, exp2, exp3 ))
+	do
+	commands
+	done
+	
+--> BASH FUNCTIONS
+	Types of parameters 
+	1. positional arguments
+	2. Special parameters
+	3. Named arguments
+	
+	
+	
+Today's work:-
+1. Started with the revision of the previously done work on yesterday, just did a small revision and practice of those commands and take a small recap.
+2. Got my task about exploring chmod command in Linux and granting different permissions to the user of read, write, execute etc...
+3. Then i started something new that was really fun, about exploring a BASH Scripting. i explored some basic concepts like comments, variables, echo, writing scripts, exploring case, if else statements, looping statements, arithmetic operations, and functions...
+4. Explored vim editor a little bit. (pending...)
