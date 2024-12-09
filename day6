@@ -49,3 +49,21 @@ Commands :- git add,
 
 5. git remote add origin :- This command will link your local repository to a remote repository. 
 Index :- index refers to a temporary staging area where you collect changes made to files in your working directory before commiting them to repository.
+
+6. Git PAT (Personal Access Token) :- It acts as an alternative to our password when authentication with a GIT hosting platform like GitHub.It will allow us to perform actions like pushing, cloning, pulling code, without using our login credentials.
+
+The primary problem with the traditional login credentials on github was Security risk associated with using a single password for accessing both, our github account and other sensitive services which makes is more vulnerable to leaks. Github introduced PAT as more secure alternative by allowing users to generate unique tokens with specific permissions.
+
+
+GIT Commands :
+1. Git rebase
+2. Git push
+3. Git pull
+4. Git commit
+5. Git merge
+6. Git reset
+7. command for switching between different commits.
+8. git clone
+9. git switch
+
+
