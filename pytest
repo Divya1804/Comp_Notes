@@ -1,0 +1,12 @@
+This notes are about Pytest.
+
+	Pytest is a testing framework for python that makes it easy to write simple and scalable test cases. It offers features like fixtures, parameterized tests, and detailes error reporting. Using this framework, we can efficiently test code and ensure its reliability.
+	
+	in python, assert keyword is used to test if a condition is true. If condition is false, it raise an AssertionError exception and print the error message passed as an argument, and stops the program's execution.
+	
+	syntax :- assert condition, message
+	example :- assert b != 0, "Devision by zero not allowed"
+	
+	Pytest is a testing framework for python that simplifies the process of writing and running tests. It provides a simple syntax for creating test cases and powerful features for managing and reporting test results. Pytest is mainly used for API testing.
+	
+	
