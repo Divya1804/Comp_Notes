@@ -16,6 +16,11 @@ PS command internal working structure :-
 
 -- >IT ESSENTIALLY GIVE A SNAPSHOT OF THE ACTIVE PROCESSES ON THE SYSTENM.
 
+Key Points about how "PS" works:
+--------------------------------
+1. Accessing the process table :- The ps command interacts with the kernel through system calls to read the process table.
+
+2. 
 
 FIND Command ---------->
 --> Find command in linux is used to search for files in a directory.
