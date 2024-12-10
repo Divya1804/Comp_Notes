@@ -6,9 +6,10 @@ Today's working
 
 
 
-PS Command--------->
+PS (Process Status) Command--------->
 --> This command is used to check status of the active processes on a system. 
 --> This command enables you to check status of the active processes on system, and also display technical information about the processes.
+
 
 FIND Command ---------->
 --> Find command in linux is used to search for files in a directory.
@@ -67,3 +68,26 @@ GIT Commands :
 9. git switch
 
 
+
+How git internally works ?
+--> Git internally works by storing project versions as a series of snapshots, called "Commits", it works as a pointer to a tree based data structure representing the state of your files at that specific point in time.
+
+Means we can simply say that, we can do time travel in git for going backword in time and check what was our pervious changes to our code. 
+
+in git, Commits are stored in a tree based data structure, it means there will be 1 root node (First commit) then next commit will be the child node for the parent node, and we can create multiple branches and multiple child nodes using many different branches coming from the parent node.
+
+A -- > B 
+\
+ --- > C
+ 
+In this example, A is a first commit (Root node) from 1st branch called MAIN, And B is the child node for the Parent node (A) and C is another child node from another brnach Let's say (Trial)
+
+Key Components of Git's internal structure :-
+
+1. Blobs :- individual file contents are stored as blobs within git repo. identified by their unique hash.
+
+2. Commits :- A commit object holds information about the changes made in a specific version of the project.
+
+3. Branches :- A brnach in git is simply a pointer to a specific commit, allowing us to work on different versions of project simultaneously.
+
+HEAD :- This is a pointer indicates which commit you are currently working on.
