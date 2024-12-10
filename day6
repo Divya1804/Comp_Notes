@@ -10,6 +10,12 @@ PS (Process Status) Command--------->
 --> This command is used to check status of the active processes on a system. 
 --> This command enables you to check status of the active processes on system, and also display technical information about the processes.
 
+PS command internal working structure :-
+
+1. PS Command internally works by accessing the system's process table, a data structure maintained by the kernel that stores information about all currently running processes, and then extracting relevent details like PID, Process name, CPU Usage, Memory usage to display them on the terminal;  
+
+-- >IT ESSENTIALLY GIVE A SNAPSHOT OF THE ACTIVE PROCESSES ON THE SYSTENM.
+
 
 FIND Command ---------->
 --> Find command in linux is used to search for files in a directory.
@@ -90,4 +96,4 @@ Key Components of Git's internal structure :-
 
 3. Branches :- A brnach in git is simply a pointer to a specific commit, allowing us to work on different versions of project simultaneously.
 
-HEAD :- This is a pointer indicates which commit you are currently working on.
+4. HEAD:-This is a pointer indicates which commit you are currently working on.
