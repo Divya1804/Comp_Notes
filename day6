@@ -8,7 +8,7 @@ Today's working
 
 PS Command--------->
 --> This command is used to check status of the active processes on a system. 
-
+--> This command enables you to check status of the active processes on system, and also display technical information about the processes.
 
 FIND Command ---------->
 --> Find command in linux is used to search for files in a directory.
